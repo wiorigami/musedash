@@ -1,39 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Network - Protect Earth</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muse Dash Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 text-gray-800">
 
-        :root {
-            --primary: #2e7d32;
-            --secondary: #4caf50;
-            --accent: #8bc34a;
-            --light: #e8f5e9;
-            --dark: #1b5e20;
-            --text: #333333;
-            --white: #ffffff;
-        }
+  <!-- Header -->
+  <header class="bg-pink-400 text-white p-6 shadow-md">
+    <h1 class="text-3xl font-bold">Muse Dash Blog</h1>
+    <p class="text-sm mt-1">Rhythm, Beats, and Cute Chaos</p>
+  </header>
 
-        body {
-            background-color: var(--light);
-            color: var(--text);
-            line-height: 1.6;
-        }
+  <!-- Navigation -->
+  <nav class="bg-white shadow-sm p-4 flex gap-6">
+    <a href="#" class="hover:text-pink-500">Home</a>
+    <a href="#" class="hover:text-pink-500">Guides</a>
+    <a href="#" class="hover:text-pink-500">Characters</a>
+    <a href="#" class="hover:text-pink-500">Music Packs</a>
+    <a href="#" class="hover:text-pink-500">About</a>
+  </nav>
 
-        header {
-            background: linear-gradient(to right, var(--primary), var(--secondary));
-            color: var(--white);
-            padding: 1rem 0;
-            position: sticky;
+  <!-- Hero Section -->
+  <section class="p-10 text-center">
+    <h2 class="text-4xl font-bold mb-4">Welcome to the World of Muse Dash!</h2>
+    <p class="text-lg text-gray-600">Explore guides, characters, and music from your favorite rhythm game.</p>
+  </section>
+
+  <!-- Blog Posts -->
+  <main class="grid md:grid-cols-3 gap-6 p-8">
+
+    <article class="bg-white rounded-2xl shadow p-4">
+      <h3 class="text-xl font-semibold mb-2">Beginner Guide</h3>
+      <p class="text-gray-600">New to Muse Dash? Learn the basics, controls, and tips to improve fast.</p>
+      <button class="mt-3 text-pink-500">Read More →</button>
+    </article>
+
+    <article class="bg-white rounded-2xl shadow p-4">
+      <h3 class="text-xl font-semibold mb-2">Top 10 Songs</h3>
+      <p class="text-gray-600">Check out the most popular and challenging tracks in Muse Dash.</p>
+      <button class="mt-3 text-pink-500">Read More →</button>
+    </article>
+
+    <article class="bg-white rounded-2xl shadow p-4">
+      <h3 class="text-xl font-semibold mb-2">Character Spotlight</h3>
+      <p class="text-gray-600">Meet your favorite characters and learn their unique abilities.</p>
+      <button class="mt-3 text-pink-500">Read More →</button>
+    </article>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-pink-400 text-white text-center p-4 mt-10">
+    <p>© 2026 Muse Dash Blog | Fan-made site</p>
+  </footer>
+
+</body>
+</html>
             top: 0;
             z-index: 100;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
